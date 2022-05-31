@@ -15,8 +15,8 @@
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				<a href="index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
+			<div id = "topNav">
+				<a id = "name" href="index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
 
 				<!-- nav -->
 				<nav>
@@ -38,10 +38,14 @@
 		</header>
 
 		<!-- gallery section -->
+		
+		
 		<section class="gallery">
-			<div>
+			<div class ='food'>
 				<h2>OUR FOOD</h2>
-
+			</div>
+			
+			<div class = 'images'>
 				<img src = "img/food-avocadotoast.jpg">
 
 				<img src = "img/food-burger.jpg">
@@ -60,6 +64,7 @@
 
 				<img src = "img/food-wings.jpg">
 			</div>
+			
 		</section>
 
 		<!-- spacer -->
@@ -136,21 +141,28 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			<h4>Join our mailing list!</h4>
-			<input type = "email" id ="email" placeholder = "Email Address">
-			<button>Sign Up</button>
-			
-			<!-- nav -->
-			<nav>
-				<div class = "links">
-					<a href = "menu.html">Menu</a>
-					<a href = ".reservations">Reservations</a>
-					<a href = ".specialOffers">Special Offers</a>
-					<a href = ".contact">Contact</a>
+			<div id ="signUp">
+				<h4>Join our mailing list!</h4>
+				<div id = "emailButton">
+					<input type = "email" id ="email" placeholder = "Email Address         ">
+					<button>Sign Up</button>
 				</div>
-			</nav>
-			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			</div>
+			
+		<!-- nav -->
+			<div id= "cNav">
+				<nav>
+					<div class = "links">
+							<a href = "menu.html">Menu</a>
+							<a href = ".reservations">Reservations</a>
+							<a href = ".specialOffers">Special Offers</a>
+							<a href = ".contact">Contact</a>
+					</div>
+				</nav>
+			
+				<!-- copyright -->
+				<h6>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</h6>
+			</div>
 		</footer>
 	</div>
 </body>

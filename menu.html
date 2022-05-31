@@ -14,24 +14,26 @@
 
 <body>
     <div>
-        <!-- header -->
-        <header>
-            <a href = "index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
+		<!-- header -->
+		<header>
+			<div id = "topNav">
+				<a id = "name" href="index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
 
-            <!-- nav -->
-            <nav>
-                <div class = "links">
-                    <a href = "menu.html">Menu</a>
-                    <a href = ".reservations">Reservations</a>
-                    <a href = ".specialOffers">Special Offers</a>
-                    <a href = ".contact">Contact</a>
-                </div>
-                <div class ="social">
-                    <i class="fa-brands fa-facebook-square"></i>
-                    <i class="fa-brands fa-twitter-square"></i>
-                    <i class="fa-brands fa-instagram-square"></i>
-                </div>
-            </nav>
+				<!-- nav -->
+				<nav>
+					<div class = "links">
+						<a href = "menu.html">Menu</a>
+						<a href = ".reservations">Reservations</a>
+						<a href = ".specialOffers">Special Offers</a>
+						<a href = ".contact">Contact</a>
+					</div>
+					<div class ="social">
+						<i class="fa-brands fa-facebook-square"></i>
+						<i class="fa-brands fa-twitter-square"></i>
+						<i class="fa-brands fa-instagram-square"></i>
+					</div>
+				</nav>
+			</div>
         </header>
 
         <!-- spacer -->
@@ -39,7 +41,7 @@
 
         <!-- menu -->
         <article class="menu">
-            <h2>Food & Drink</h2>
+            <!-- <h2>Food & Drink</h2> -->
 
               <section class = "menu-section">
                 <h3>Drinks</h3>
@@ -172,23 +174,30 @@
 
         <!-- footer -->
         <footer>
-            <!-- email signup -->
-            <h4>Join our mailing list!</h4>
-			<input type = "email" id ="email" placeholder = "Email Address">
-			<button>Sign Up</button>
-			
-			<!-- nav -->
-			<nav>
-				<div class = "links">
-					<a href = "menu.html">Menu</a>
-					<a href = ".reservations">Reservations</a>
-					<a href = ".specialOffers">Special Offers</a>
-					<a href = ".contact">Contact</a>
+			<!-- email signup -->
+			<div id ="signUp">
+				<h4>Join our mailing list!</h4>
+				<div id = "emailButton">
+					<input type = "email" id ="email" placeholder = "Email Address         ">
+					<button>Sign Up</button>
 				</div>
-			</nav>
-            <!-- copyright -->
-            ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
-        </footer>
+			</div>
+			
+		<!-- nav -->
+			<div id= "cNav">
+				<nav>
+					<div class = "links">
+							<a href = "menu.html">Menu</a>
+							<a href = ".reservations">Reservations</a>
+							<a href = ".specialOffers">Special Offers</a>
+							<a href = ".contact">Contact</a>
+					</div>
+				</nav>
+			
+				<!-- copyright -->
+				<h6>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</h6>
+			</div>
+		</footer>
     </div>
 </body>
 
