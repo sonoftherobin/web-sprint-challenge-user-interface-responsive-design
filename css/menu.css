@@ -74,6 +74,8 @@ h1 {
 
 h2 {
     font-size: 6rem;
+    width:100%;
+    text-align: center;
 }
 
 h3 {
@@ -82,6 +84,8 @@ h3 {
 
 h4 {
     font-size: 4rem;
+    
+    
 }
 
 p, a {
@@ -150,21 +154,6 @@ i{
      justify-content: space-evenly; 
 
 }
-.menu{
-    display:flex;
-    flex-wrap:wrap;
-    width:100%;
-    align-items: center;
-    justify-content: space-around;
-}
- .menu-section{
-    display: flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-    width:40%;
-    align-items: center;
-    justify-content: center;
-} 
 
 /* spacer */
 .spacer {
@@ -184,11 +173,39 @@ i{
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    /* background: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, .8);  */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+
 }
+.menu-section{
+    display:flex;
+    flex-direction: column;
+    width:33%;
+    margin:2%
+}
+ .menu-item{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+#backgroundFade{
+    background: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, .8);
+    background-position: center;
+    background-size: cover;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+ 
 
 /* footer section */
 footer {
@@ -197,9 +214,9 @@ footer {
     /* flex-direction: column; */
     width: 100%;
     padding-top: 2.5vh;
-    font-size: 3rem;
+    /* font-size: 3rem; */
     background: rgb(0, 4, 17);
-    background-color: rgb(0, 4, 17, .8);
+    /* background-color: rgb(0, 4, 17, .8);  */
 }
 #signUp{
     display:flex;
